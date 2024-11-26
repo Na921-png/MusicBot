@@ -19,14 +19,14 @@ description: "Example config file for JMusicBot"
 // If you don't know how to get a bot token, please see the guide here:
 // https://github.com/jagrosh/MusicBot/wiki/Getting-a-Bot-Token
 
-token = BOT_TOKEN_HERE
+token = dced9db35b7388746ae3d0bfdc20c0902799cf3448441de0f431d64f197f7d4c
 
 
 // This sets the owner of the bot
 // This needs to be the owner's ID (a 17-18 digit number)
 // https://github.com/jagrosh/MusicBot/wiki/Finding-Your-User-ID
 
-owner = 0 // OWNER ID
+owner = 1310819685360730175
 
 
 // This sets the prefix for the bot
@@ -34,7 +34,7 @@ owner = 0 // OWNER ID
 // If you use !!, the play command will be !!play
 // If you do not set this, the prefix will be a mention of the bot (@Botname play)
 
-prefix = "@mention"
+prefix = "!!"
 
 
 // If you set this, it modifies the default game of the bot
@@ -57,7 +57,7 @@ status = ONLINE
 // "Playing" status. Note that this will ONLY work if the bot is playing music on ONE guild;
 // if the bot is playing on multiple guilds, this will not work.
 
-songinstatus=false
+songinstatus=true
 
 
 // If you set this, the bot will also use this prefix in addition to
@@ -87,7 +87,7 @@ help = help
 // This is because refreshing the boxes causes the image to be reloaded
 // every time it refreshes.
 
-npimages = false
+npimages = true
 
 
 // If you set this, the bot will not leave a voice channel after it finishes a queue.
@@ -166,7 +166,7 @@ aliases {
   // Music commands
   lyrics = []
   nowplaying = [ np, current ]
-  play = []
+  play = [ p ]
   playlists = [ pls ]
   queue = [ list ]
   remove = [ delete ]
