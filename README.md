@@ -23,7 +23,7 @@ A cross-platform Discord music bot with a clean interface, and that is easy to s
   * Server-specific setup for the "DJ" role that can moderate the music
   * Clean and beautiful menus
   * Supports many sites, including Youtube, Soundcloud, and more
-  * Supports many online radio/streams
+  * Supports many online radio/streams 
   * Supports local files
   * Playlist support (both web/youtube, and local)
 
